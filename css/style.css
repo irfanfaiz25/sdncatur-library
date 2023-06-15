@@ -1,0 +1,71 @@
+li {
+    list-style: none;
+    margin: 25px 0 10px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    margin-left: -300px;
+    transition: 0.4s;
+    background-color: #023047 !important;
+}
+
+.mc {
+    margin-top: 6px;
+}
+.active-main-content {
+    margin-left: 250px;
+    
+}
+
+.active-sidebar {
+    margin-left: 0;
+}
+
+#main-content {
+    transition: 0.4s;
+}
+
+.logo-sbn {
+    padding-bottom: 0px !important;
+    margin-left: 45px !important;
+}
+
+.judul-sbn {
+    padding-top: 0px !important;
+    margin-right: 5px !important;
+    margin-left: 15px;
+    padding-bottom: 30px !important;
+    font-size: 22px !important;
+    font-weight: normal !important;
+    color: #F5F5F5 !important;
+}
+
+.judul-sbn span {
+    color: #e63946;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+}
+
+.dataku {
+    padding-top: 25px;
+}
+
+.ctr {
+    text-align: center;
+}
+
+.margin-set {
+    margin-top: 90px !important;
+}
+
+.ic {
+    padding-right: 20px;
+}
+
