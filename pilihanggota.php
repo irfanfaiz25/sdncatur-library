@@ -370,7 +370,7 @@ if (isset($_POST["proses"])) {
                                                 </td>
                                                 <td class="text-center text-center">
                                                     <button style="margin-right: 5px;" type="submit"
-                                                        class="btn btn-primary btn-sm" name="ubah" data-toggle="modal"
+                                                        class="btn btn-danger btn-sm" name="ubah" data-toggle="modal"
                                                         data-target="#transModal<?= $row["id"]; ?>" href=""><i
                                                             class="fa fa-circle-check"></i> PILIH</button>
                                                 </td>
